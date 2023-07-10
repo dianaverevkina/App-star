@@ -4,7 +4,7 @@
   "description": "Browser app",
   "main": "index.js",
   "scripts": {
-    "serve": "webpack serve --mode development",
+    "serve": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
